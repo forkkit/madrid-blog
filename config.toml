@@ -1,4 +1,5 @@
 languageCode = "en-us"
+publishDir = "docs"
 
 baseurl = "http://example.org"
 title = "Matt in Madrid"
