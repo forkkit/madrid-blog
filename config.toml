@@ -4,7 +4,7 @@ publishDir = "docs"
 baseurl = "https://madrid.mattrossman.com"
 title = "Matt in Madrid"
 author = "Matt Rossman"
-canonifyurls = true
+canonifyurls = false
 paginate = 3
 theme = "aether"
 
