@@ -1,5 +1,4 @@
 languageCode = "en-us"
-publishDir = "docs"
 
 baseurl = "https://madrid.mattrossman.com"
 title = "Matt in Madrid"
@@ -10,5 +9,5 @@ theme = "aether"
 
 [params]
 brand = "home"
-description = "aether Hugo theme for blogs"
+description = "Spring 2019 Study Abroad"
 homeimg = ""
