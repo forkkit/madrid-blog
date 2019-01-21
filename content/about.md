@@ -1,7 +1,6 @@
 ---
 title: "About this blog"
 date: 2019-01-13T04:47:00-05:00
-description: ""
 dropCap: false
 displayInMenu: true
 displayInList: false
