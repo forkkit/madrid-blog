@@ -1,10 +1,11 @@
 ---
-title: "About this blog"
+title: "About"
 date: 2019-01-13T04:47:00-05:00
 dropCap: false
 displayInMenu: true
 displayInList: false
 draft: false
+weight: 10
 ---
 
 # The purpose of this blog
