@@ -1,0 +1,98 @@
+---
+title: "Welcome"
+date: 2019-01-19T12:00:00+01:00
+description: "to Madrid, and to the blog"
+featuredImage: "img/01/19/lobby.jpg"
+categories: ["Madrid"]
+dropCap: false
+displayInMenu: false
+displayInList: true
+draft: false
+---
+
+# Blog orientation
+
+Please refer to the [about page]({{< ref "../about.md" >}}) for an idea of why and how I'm making this blog.
+
+
+# Flying in
+
+I flew from Boston to Paris (1.5 hour layover) and then to Madrid. Here are the highlights:
+
+### BOS → CDG
+
+* through security in half an hour
+* free booze :D
+* John Wick hates New Yorkers
+* I still can't sleep on planes
+
+### CDG → MAD
+
+* farthest seat on the plane
+* great view of the bathroom
+* almost got to flex my high school French on the flight attendant... I'll get it next time
+
+# Arrival
+
+Here was my first meal in Madrid:
+
+{{< linked-img "burgerking.jpg" >}}
+
+Sorry, I used the kiosk to order.
+
+My mom feels naked when she doesn't wear earings. I feel naked when I don't have a cell phone plan. I was not sure I was in the right pickup place and it was uncomfortable not being able to easily contact anyone for confirmation. Once I got on the WiFi, I discovered that another student in the program found my profile and messaged me. We met up and soon gathered the rest of the partipants who were going in the later shuttle.
+
+
+### I Paid my Dues...
+
+There was a crowd of people accumulating at our arrival meeting area while Queen's *We Are the Champions* played on repeat for at least an hour. At least it's a good song. I heard that they were awaiting the arrival of a famed motorcycle rally driver.
+
+# Mi Casa
+
+ > That's just the name of the place, I'm not being clever
+
+A big bus (which strangley contained just the 8 or so of us) drove us to our assigned residence. Driving in Madrid is eerily similar to Boston but the landscape has more open spaces making it feel big.
+
+{{< linked-img "lobby.jpg" >}}
+
+This is the lobby of my *residencia*. It just opened this month.
+
+Up those stairs is a kitchen (with 4 cooking stations and lockers for everyone) and a couple of WIP rooms.
+
+{{< linked-img "room.jpg" >}}
+
+{{< linked-img "bathroom.jpg" >}}
+
+Pardon the weird distortion, I captured it as a stiched wide angle image to fit everything in. That's my room and the attached (private) bathroom
+
+### Cool features
+
+* despite the skewing in that picture, it is in fact a queen bed
+* bed frame is hollow, it hinges along the wall side to reveal storage space
+* mini fridge
+* closet built into the wall
+* room with a mini soccer (sorry, football) area
+* a "cinema" common room with swings mounted from the ceiling and a **field** of bean bags
+
+
+# A busy evening
+
+Here is the order of events after arriving at the residencia:
+
+* Quick tour of the rooms
+* 15 min to ourselves (I used it for the bathroom)
+* Walked to the metro and bought monthly passes
+* Rode to Plaza de España
+* Waited in the rain for a long time
+* Went to some building for an orientation meeting (basically, drink responsibly)
+* Had to find our way back to our residence and get food on our own
+
+### Feeding myself
+
+My little residencia crew was advised to get food items at a "supermarket" on the walk back from the metro. It was basically a convenience store attached to a gas station. They did not have great selection but they had a good deal on these meat + cheese pastry things. I *really* needed something fresh so I got a box of strawberries too.
+
+Those items constituded my dinner and breakfast.
+
+### Good night
+
+The shower felt amazing after all the traveling. I went to bed with an alarm set for a mandatory tour the following morning.
