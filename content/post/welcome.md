@@ -91,7 +91,7 @@ Here is the order of events after arriving at the residencia:
 
 My little residencia crew was advised to get food items at a "supermarket" on the walk back from the metro. It was basically a convenience store attached to a gas station. They did not have great selection but they had a good deal on these meat + cheese pastry things. I *really* needed something fresh so I got a box of strawberries too.
 
-Those items constituded my dinner and breakfast.
+Those items constituted my dinner and breakfast.
 
 ### Good night
 
