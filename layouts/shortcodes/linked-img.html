@@ -22,7 +22,7 @@ Note to remove the extra spaces between brackets, they are placed so this commen
 {{ $day   := .Page.Date.Format "02" }}
 {{ $.Scratch.Add "src" (.Get 0) }}
 {{ if ne (substr (.Get 0) 0 4) "http" }}
-    {{ $.Scratch.Set "src" (printf "%simg/%s/%s/%s" .Site.BaseURL $month $day (.Get 0)) }}
+    {{ $.Scratch.Set "src" (printf "%s/img/%s/%s/%s" .Site.BaseURL $month $day (.Get 0)) }}
 {{ end }}
 
 <div align="center">
