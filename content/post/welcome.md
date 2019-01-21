@@ -22,7 +22,7 @@ I flew from Boston to Paris (1.5 hour layover) and then to Madrid. Here are the 
 ### BOS → CDG
 
 * through security in half an hour
-* free booze :D
+* free Heinekens :D
 * John Wick needs a chill pill
 * I still can't sleep on planes
 
