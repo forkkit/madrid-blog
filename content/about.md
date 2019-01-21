@@ -17,7 +17,7 @@ I have two motivations for making this:
 
 # The structure of this blog
 
-I don't want this blog to be a novel. That would get tiring to read and I will probably be too busy anyway. I intend to structure things as a combinations of brief narratives stringing together collections of observations and pictures. I will try to keep things moving, to respect your and my time.
+I don't want this blog to be a novel. I intend to structure things as a combinations of brief narratives stringing together collections of observations and pictures. I will try to keep things moving.
 
 * bullet points are going to be our friend
 
