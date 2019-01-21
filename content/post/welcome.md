@@ -63,7 +63,7 @@ Up those stairs is a kitchen (with 4 cooking stations and lockers for everyone) 
 
 {{< linked-img "bathroom.jpg" >}}
 
-Pardon the weird distortion, I captured it as a stiched wide angle image to fit everything in. That's my room and the attached (private) bathroom
+Pardon the weird distortion, I captured it as a stitched wide angle image to fit everything in. That's my room and the attached (private) bathroom
 
 ### Cool features
 
