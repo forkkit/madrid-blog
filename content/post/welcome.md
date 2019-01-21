@@ -23,7 +23,7 @@ I flew from Boston to Paris (1.5 hour layover) and then to Madrid. Here are the 
 
 * through security in half an hour
 * free booze :D
-* John Wick hates New Yorkers
+* John Wick needs a chill pill
 * I still can't sleep on planes
 
 ### CDG → MAD
