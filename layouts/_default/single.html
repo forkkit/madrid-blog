@@ -15,7 +15,11 @@
         </figure>
         {{ end }}-->
         {{ .Content }}
-        {{ partial "commento.html" }}
+        {{ if .Site.IsServer }}
+          <h1>Comments disabled in dev</h1>
+        {{ else }}
+          {{ partial "commento.html" }}
+        {{ end }}
       </article>
       <!--
       If you're going to use DISQUS comments, insert code here.
