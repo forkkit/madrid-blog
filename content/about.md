@@ -25,11 +25,15 @@ I don't want this blog to be a novel. I intend to structure things as a combinat
 
 I've tried to keep it simple. I'm planning on tagging posts by location (like major cities or other countries). In the overflow menu on the top right, you can click one of the tagged locations to see all the posts about that location. For now, it's just Madrid.
 
-# Planned features
-
-* newsletter for updates, new posts
-* comments on posts
-
 # The nerdy stuff
 
 This blog is produced with [Hugo](https://gohugo.io/) based on the [Aether](https://themes.gohugo.io/aether/) theme. It's [open source](https://github.com/mattrossman/madrid-blog). It's built and hosted with [Netlify](https://www.netlify.com/).
+
+Comments are powered by [Commento.io](https://commento.io/)
+
+[Zapier](https://zapier.com/) detects new entries to the [RSS feed]({{< url "post/index.xml" >}}) and formats the email body. [TinyLetter](https://tinyletter.com/) manages subscribers and delivers the formatted emails.
+
+
+# Planned features
+
+* migration to MailChimp for newsletter
