@@ -26,11 +26,11 @@
       -->
     </main>
     <nav class="end-nav side-padding">
-      {{ with .PrevInSection }}
-      {{ .Render "li-prev" }}
-      {{ end }}
       {{ with .NextInSection }}
       {{ .Render "li-next" }}
+      {{ end }}
+      {{ with .PrevInSection }}
+      {{ .Render "li-prev" }}
       {{ end }}
       {{ partial "home-card.html" . }}
     </nav>
