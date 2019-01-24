@@ -1,0 +1,55 @@
+<!-- linked-img
+
+This lets you place an image that:
+1. Links to its own source
+2. Can build a path by /img/month/day/param to make image placement easier.
+
+The latter option applies when the URL does not begin with "http"
+
+Example:
+
+For a post with the date set to 09/14/17 :
+
+{ { < linked-img "my-img.png" > } }
+
+will display the image located at /img/09/14/my-img.png
+which you can click to display the full image.
+
+Note to remove the extra spaces between brackets, they are placed so this comment works properly.
+-->
+
+{{ $month := .Page.Date.Format "01" }}
+{{ $day   := .Page.Date.Format "02" }}
+{{ $.Scratch.Add "src" (index .Params "src") }}
+{{ if ne (substr ($.Scratch.Get "src") 0 4) "http" }}
+    {{ $.Scratch.Set "src" (printf "%simg/%s/%s/%s" .Site.BaseURL $month $day ($.Scratch.Get "src")) }}
+{{ end }}
+
+<a href={{ $.Scratch.Get "src" }}>
+	<img src="{{ $.Scratch.Get "src" }}" 
+	    alt="{{ $.Scratch.Get "src" }} not found"
+	    class="hugo-img small-img {{ if isset .Params "smartfloat" -}}
+	        {{- if eq .Params.smartfloat "left" -}}
+	            smartfloat-left
+	        {{- else if eq .Params.smartfloat "right" -}}
+	            smartfloat-right
+	        {{- end -}}
+	    {{- end }}"
+	    style="margin-bottom: 0.5em; {{- if isset .Params "width" }}width: {{ index .Params "width" }}; {{- end -}}"
+	/>
+</a>
+{{- if isset .Params "caption" -}}<p class="small-img" style="text-align: center; max-width: 30em; margin-top: 0">
+	<i>{{ index .Params "caption" }}</i>
+</p>{{- end -}}
+
+<!-- FOR THE CURIOUS
+
+The way to get a YYYY-MM-DD date is calling { { .Date.Format "2006-01-02" } }
+
+As such, MM aligns with "01" and DD aligns with "02"
+
+Calling these formats independently lets you pull the month and day values.
+
+This helps me organize my image files by post date.
+
+-->
