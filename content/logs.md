@@ -16,3 +16,5 @@ weight: 10
 | 01-22   | permiso (excuse me) | Matadero video art display |
 | 01-23   | los zapatos (shoes) | crosswalk jugglers, seeing the same jacket-wearing dog again |
 | 01-24   | caliente (hot) | churro-fest, buying fresh bread from the nice lady at the Alimentación |
+| 01-25   | mirar (to look) | group of ladies trying to pronounce Obama 
+| 01-26   | antiguo (old) | first authentic Spanish food experience, mainly the natillas |
