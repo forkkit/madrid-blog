@@ -1,0 +1,31 @@
+{{ $month := .Page.Date.Format "01" }}
+{{ $day   := .Page.Date.Format "02" }}
+{{ .Page.Scratch.Add "total" 1  }}
+
+
+<div ID='ngy2p_{{ .Page.Scratch.Get "total" }}' data-nanogallery2='{
+    "itemsBaseURL": "{{ printf "%simg/%s/%s/" .Site.BaseURL $month $day }}",
+    "thumbnailWidth": "auto",
+    "thumbnailHeight": "300",
+    "thumbnailBorderVertical": 0,
+    "thumbnailBorderHorizontal": 0,
+    "thumbnailLabel": {
+      "display": false
+    },
+    "thumbnailHoverEffect2": "image_scale_1_1.1_500",
+    "thumbnailAlignment": "center",
+    "thumbnailGutterWidth": 10,
+    "thumbnailGutterHeight": 10,
+    "displayBreadcrumb": false,
+    "breadcrumbAutoHideTopLevel": false
+  }'>
+
+{{ range (split (.Get "src") " " ) }}
+  <a href="{{ . }}"></a>
+{{ end }}
+
+</div>
+
+{{- if isset .Params "caption" -}}<p class="small-img" style="text-align: center; max-width: 30em; margin-top: 0">
+  <i>{{ .Get "caption" }}</i>
+</p>{{- end -}}

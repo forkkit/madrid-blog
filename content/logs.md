@@ -18,3 +18,4 @@ weight: 10
 | 01-24   | caliente (hot) | churro-fest, buying fresh bread from the nice lady at the Alimentación |
 | 01-25   | mirar (to look) | group of ladies trying to pronounce Obama 
 | 01-26   | antiguo (old) | first authentic Spanish food experience, mainly the natillas |
+| 01-27   | vaso (glass/cup) | tasting cherimoya (custard apple) |
