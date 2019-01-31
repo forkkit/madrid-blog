@@ -19,3 +19,7 @@ weight: 10
 | 01-25   | mirar (to look) | group of ladies trying to pronounce Obama 
 | 01-26   | antiguo (old) | first authentic Spanish food experience, mainly the natillas |
 | 01-27   | vaso (glass/cup) | tasting cherimoya (custard apple) |
+| 01-28   | albahaca (basil) | smooth fist day of classes, delicious 1-pot pasta recipe |
+| 01-29   | entonces (then) | awesome AI professor |
+| 01-30   | pedir (to ask for) | finishing a personal statement |
+| 01-31   | ropa (clothing) | amazing chicken curry at Shan Kebab, dropping a Hindi phrase on the guy working there |

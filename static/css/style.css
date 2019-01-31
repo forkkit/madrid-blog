@@ -234,9 +234,7 @@ strong {
 }
 .card-subtext > p + p {
     margin-left: 1em;
-    padding-left: 1em;
     word-spacing: 0.5em;
-    border-left: thin solid #7A7B7C;
 }
 .end-nav {
     width: 100%;
