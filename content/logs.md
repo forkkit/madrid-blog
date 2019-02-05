@@ -22,4 +22,7 @@ weight: 10
 | 01-28   | albahaca (basil) | smooth fist day of classes, delicious 1-pot pasta recipe |
 | 01-29   | entonces (then) | awesome AI professor |
 | 01-30   | pedir (to ask for) | finishing a personal statement |
-| 01-31   | ropa (clothing) | amazing chicken curry at Shan Kebab, dropping a Hindi phrase on the guy working there |
+| 01-31   | ropa (clothing) | amazing chicken curry at Shan Kebab, dropping a Hindi phrase on the guy working there 
+| 02-01   | palabra (word) | first day of meal plan, letters of recommendation |
+| 02-02   | cosas (things) | magical hailstorm with chocolate con churros at sunset at El Escorial palace |
+| 02-03   | [para] ida (one way) | cable car ride, arriving at sunset |
