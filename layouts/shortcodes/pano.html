@@ -1,10 +1,13 @@
 {{ .Page.Scratch.Add "pano-total" 1  }}
+{{ $month := .Page.Date.Format "01" }}
+{{ $day   := .Page.Date.Format "02" }}
+{{ $pano   := (printf "%simg/%s/%s/pano/%s" .Site.BaseURL $month $day (.Get "src")) }}
 
 <div id='panorama-{{ .Page.Scratch.Get "pano-total" }}' style="width: 100%; padding-bottom: 66.66%; margin-bottom: 5px"></div>
 <script>
 pannellum.viewer('panorama-{{ .Page.Scratch.Get "pano-total" }}', {
     "type": "equirectangular",
-    "panorama": {{ .Get "src" }},
+    "panorama": {{ $pano }},
     "hfov": 80,
     "minHfov": 30,
     "maxHfov": 90,
