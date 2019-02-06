@@ -25,4 +25,6 @@ weight: 10
 | 01-31   | ropa (clothing) | amazing chicken curry at Shan Kebab, dropping a Hindi phrase on the guy working there 
 | 02-01   | palabra (word) | first day of meal plan, letters of recommendation |
 | 02-02   | cosas (things) | magical hailstorm with chocolate con churros at sunset at El Escorial palace |
-| 02-03   | [para] ida (one way) | cable car ride, arriving at sunset |
+| 02-03   | [para] ida (one way) | cable car ride, arriving at sunset 
+| 02-04   | fue ([it] was) | chatting with the cleaning lady about what I did over the weekend |
+| 02-05   | trescientos (three hundred) | finalizing my schedule, lucky pick on logic class enrollment |
