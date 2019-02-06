@@ -13,7 +13,5 @@ pannellum.viewer('panorama-{{ .Page.Scratch.Get "pano-total" }}', {
 	{{ with (.Get "maxPitch") }} "maxPitch": {{ int . }}, {{ end }}
 	{{ with (default -70 (.Get "yaw")) }} "yaw": {{ int . }}, {{ end }}
 	{{ with (.Get "pitch") }} "pitch": {{ int . }}, {{ end }}
-	{{ with (default -5 (.Get "autoRotate")) }} "autoRotate": {{ int . }}, {{ end }}
-	{{ with (default "true" (.Get "draggable")) }} "draggable": {{ eq "true" . }}, {{ end }}
 });
 </script>
