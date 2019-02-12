@@ -27,4 +27,11 @@ weight: 10
 | 02-02   | cosas (things) | magical hailstorm with chocolate con churros at sunset at El Escorial palace |
 | 02-03   | [para] ida (one way) | cable car ride, arriving at sunset 
 | 02-04   | fue ([it] was) | chatting with the cleaning lady about what I did over the weekend |
-| 02-05   | trescientos (three hundred) | finalizing my schedule, lucky pick on logic class enrollment |
+| 02-05   | trescientos (three hundred) | finalizing my schedule, lucky pick on logic class enrollment 
+| 02-06   | cerca (near) | adorable pup playing with tennis ball at Leganés, locking in first hostel stay |
+| 02-07   | vuelta (return) |  |
+| 02-08   | ya (already) | cute playful pup, locked in cheap hostel for next weekend |
+| 02-09   | cuesta (cost) | patient lady at coffee shop, adorable little girl at the market, successful convo with cathedral ticket ladies, couple giving travel tips and treating me to tapas, meeting Dutch guy at flamenco bar |
+| 02-10   | canica (marble) | marble and bag from the market, lunch with Joost, random parade at night |
+| 02-11   | tenedor (fork) | submitting ORNL research position application, discovering 'ubiquitous computing' 
+| 02-12   | roto (broken) | finishing another blog post |
