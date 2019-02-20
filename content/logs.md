@@ -33,5 +33,13 @@ weight: 10
 | 02-08   | ya (already) | cute playful pup, locked in cheap hostel for next weekend |
 | 02-09   | cuesta (cost) | patient lady at coffee shop, adorable little girl at the market, successful convo with cathedral ticket ladies, couple giving travel tips and treating me to tapas, meeting Dutch guy at flamenco bar |
 | 02-10   | canica (marble) | marble and bag from the market, lunch with Joost, random parade at night |
-| 02-11   | tenedor (fork) | submitting ORNL research position application, discovering 'ubiquitous computing' 
+| 02-11   | tenedor (fork) | submitting ORNL research position application, discovering 'ubiquitous computing' |
 | 02-12   | roto (broken) | finishing another blog post |
+| 02-13   | cacahuete (peanut) | finishing WUSTL REU application, progress on graphics project, trying a store-bought clara |
+| 02-14   | todavía (yet) | parrot (parakeet?) whistling, making noises, getting a lil plant, trying cider |
+| 02-15   | olvidar | adorable squad of puppies playing after class, playing with vim |
+| 02-16   | dársena (dock, for a bus) | free sangria, weird american restaurant |
+| 02-17   | en lugar (instead) | resolving the mezquita issue, beatiful night view of the city reflected in the river |
+| 02-18   | desmasiado (too much/many) | cat at bus stop |
+| 02-19   | acordarse (to remember) | making quesadillas, seeing recs submitted, playing with vim  |
+
