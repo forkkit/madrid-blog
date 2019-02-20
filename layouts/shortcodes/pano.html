@@ -5,15 +5,18 @@
 pannellum.viewer('panorama-{{ .Page.Scratch.Get "pano-total" }}', {
     "type": "equirectangular",
     "panorama": {{ .Get "src" }},
-    "hfov": 80,
-    "minHfov": 30,
-    "maxHfov": 90,
     "mouseZoom": false,
 	{{ with (.Get "minPitch") }} "minPitch": {{ int . }}, {{ end }}
 	{{ with (.Get "maxPitch") }} "maxPitch": {{ int . }}, {{ end }}
 	{{ with (default -70 (.Get "yaw")) }} "yaw": {{ int . }}, {{ end }}
 	{{ with (.Get "pitch") }} "pitch": {{ int . }}, {{ end }}
+	{{ with (default 30 (.Get "minHfov")) }} "minHfov": {{ int . }}, {{ end }}
+	{{ with (default 90 (.Get "maxHfov")) }} "maxHfov": {{ int . }}, {{ end }}
+	{{ with (default 80 (.Get "hfov")) }} "hfov": {{ int . }}, {{ end }}
 	{{ with (default -5 (.Get "autoRotate")) }} "autoRotate": {{ int . }}, {{ end }}
 	{{ with (default "true" (.Get "draggable")) }} "draggable": {{ eq "true" . }}, {{ end }}
 });
 </script>
+{{- if isset .Params "caption" -}}<p class="small-img" style="text-align: center; max-width: 30em; margin-top: 0">
+	<i>{{ .Get "caption" }}</i>
+</p>{{- end -}}
