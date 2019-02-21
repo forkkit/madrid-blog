@@ -6,7 +6,7 @@ author = "Matt Rossman"
 canonifyurls = true
 paginate = 10
 theme = "aether"
-disqusShortname = "matt-in-madrid"
+disqusShortname = "test-k27ui677yt"
 
 [params]
 brand = "home"
