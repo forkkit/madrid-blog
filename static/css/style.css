@@ -213,6 +213,7 @@ strong {
     z-index: 5;
 }
 .card-body {
+    width: 100%;
     padding: 1em;
 }
 .card-title {
@@ -443,4 +444,9 @@ footer {
     code {
         border-radius: 0.2rem;
     }
+}
+
+.disqus-comment-count {
+    margin-left: auto !important;
+    word-spacing: 0 !important;
 }
