@@ -447,6 +447,6 @@ footer {
 }
 
 .disqus-comment-count {
-    margin-left: auto !important;
     word-spacing: 0 !important;
+    margin-bottom: 0;
 }

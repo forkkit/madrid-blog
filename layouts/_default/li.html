@@ -12,7 +12,7 @@
       <p><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time></p>
       {{ if .Params.categories }}<p>|</p>{{ end }}
       <p>{{ range .Params.categories }}#{{ replace . " " "" }} {{ end }}</p>
-      <p class="disqus-comment-count" data-disqus-url="{{ .Permalink }}">1 Comment</p>
     </div>
+    <p class="disqus-comment-count card-subtext muted-text" data-disqus-url="{{ .Permalink }}">0 Comment</p>
   </article>
 </a>
