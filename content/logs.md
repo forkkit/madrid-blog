@@ -42,4 +42,11 @@ weight: 10
 | 02-17   | en lugar (instead) | resolving the mezquita issue, beatiful night view of the city reflected in the river |
 | 02-18   | desmasiado (too much/many) | cat at bus stop |
 | 02-19   | acordarse (to remember) | making quesadillas, seeing recs submitted, playing with vim  |
+| 02-20   | parecer (to appear, seem) | making quesadillas, seeing recs submitted, playing with vim  |
+| 02-21   | suguro (sure, certain) | little kid on toy blue motorbike, 'no es agua', enthralled with me, beer pong and Kapital|
+| 02-22   | lugar (place) | finding more REUs to apply to, watching Kick-Ass and the Simpsons on the bus |
+| 02-23   | guay (cool | amazing breakfast buffet, bachelorettes, creepy dolls, tunos |
+| 02-24   | cabello (hair) | veggie stew, sunny weather |
+| 02-25   | rubio (blonde)| sleeping late |
+| 02-26   | resfrío (cold, as in illness) | more reference submissions, finishing my first exam |
 
