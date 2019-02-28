@@ -49,4 +49,6 @@ weight: 10
 | 02-24   | cabello (hair) | veggie stew, sunny weather |
 | 02-25   | rubio (blonde)| sleeping late |
 | 02-26   | resfrío (cold, as in illness) | more reference submissions, finishing my first exam |
+| 02-27   | disfrutas ([you] enjoy) | progress on OS project |
+| 02-28   | camarero (waiter) | elementary school carnival parade |
 
