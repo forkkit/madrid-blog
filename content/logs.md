@@ -51,4 +51,6 @@ weight: 10
 | 02-26   | resfrío (cold, as in illness) | more reference submissions, finishing my first exam |
 | 02-27   | disfrutas ([you] enjoy) | progress on OS project |
 | 02-28   | camarero (waiter) | elementary school carnival parade |
-
+| 03-01   | acabar (to just [blank], as in recently) | petting puppies |
+| 03-02   | secadora (dryer) | Madrid carnaval parade |
+| 03-03   | estuvo (it was, specific) | good progress on graphics project |
