@@ -16,6 +16,7 @@
         {{ end }}-->
         {{ .Content }}
       </article>
+      {{ partial "comment-info.html" . | markdownify }}
       <!--
       If you're going to use DISQUS comments, insert code here.
       -->
