@@ -54,3 +54,7 @@ weight: 10
 | 03-01   | acabar (to just [blank], as in recently) | petting puppies |
 | 03-02   | secadora (dryer) | Madrid carnaval parade |
 | 03-03   | estuvo (it was, specific) | good progress on graphics project |
+| 03-04   | respueta (answer) | chatting on tandem, finding skyscanner |
+| 03-05   | lejos (far) | royal palace visit, cleaning ladies taking down mask |
+| 03-06   | seguro (insurance) | reserving Cuenca visit |
+| 03-07   | cabra (goat) | finding a really good resource for learning Arabic script |

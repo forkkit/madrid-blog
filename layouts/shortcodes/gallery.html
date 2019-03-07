@@ -4,7 +4,7 @@
 {{ .Page.Scratch.Add "gallery-total" 1  }}
 
 
-<div ID='ngy2p_{{ .Page.Scratch.Get "gallery-total" }}' data-nanogallery2='{
+<div class="small-img" style="{{- if isset .Params "maxwidth" }}max-width: {{ .Get "maxwidth" }}; {{- end -}}" ID='ngy2p_{{ .Page.Scratch.Get "gallery-total" }}' data-nanogallery2='{
     "itemsBaseURL": "{{ $imgDir }}/",
     "thumbnailWidth": "auto",
     "thumbnailHeight": "300",
