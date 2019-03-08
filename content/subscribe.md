@@ -2,7 +2,7 @@
 title: "Subscribe"
 date: 2019-01-13T04:47:00-05:00
 dropCap: false
-displayInMenu: true
+displayInMenu: false
 displayInList: false
 draft: false
 weight: 1

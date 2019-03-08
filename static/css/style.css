@@ -449,3 +449,8 @@ footer {
     word-spacing: 0 !important;
     margin-bottom: 0;
 }
+
+.nav-label {
+    float: right;
+    margin: 0 5px;
+}
