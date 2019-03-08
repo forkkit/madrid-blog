@@ -30,8 +30,13 @@
 <script type="text/javascript">
   defer(function(){
     $(document).ready(function() {
-      $("#warning-description").toggle();
-      $("#warning-box").hover(function(){$("#warning-description").toggle()});
+      let desc = $("#warning-description");
+      desc.toggle();
+      $("#warning-box").on({
+        mouseenter: function() { desc.slideDown("fast") },
+        mouseleave: function() { desc.slideUp("fast") },
+        click:      function() { desc.slideToggle("fast") }
+      });
     })
   })
 </script>
