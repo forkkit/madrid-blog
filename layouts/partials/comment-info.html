@@ -27,10 +27,22 @@
 }
 </style>
 
-<div class="warning-msg">
+<script type="text/javascript">
+  defer(function(){
+    $(document).ready(function() {
+      $("#warning-description").toggle();
+      $("#warning-box").hover(function(){$("#warning-description").toggle()});
+    })
+  })
+</script>
+
+<div class="warning-msg" id="warning-box">
   <i class="fa fa-warning"></i>
-  Trouble commenting?<br><br>
-  Reminder that I switched comment providers on 2/21 so any old account you had with Commento isn't compatible with Disqus. You can make a new account or post as a guest.
+  Trouble commenting?
+  <div id="warning-description">
+    <br>
+    Reminder that I switched comment providers on 2/21 so any old account you had with Commento isn't compatible with Disqus. You can make a new account or post as a guest.
+  </div>
 </div>
 
 
