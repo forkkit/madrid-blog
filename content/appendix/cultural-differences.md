@@ -5,7 +5,7 @@ description: "Cultural differences"
 dropCap: True
 displayInMenu: false
 displayInList: false
-draft: true
+draft: false
 ---
 
 Aunt Sharon wanted to know what cultural differences I see in Spain vs America. Here is an incomplete list of the first things that come to mind.
