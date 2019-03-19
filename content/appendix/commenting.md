@@ -16,7 +16,7 @@ Disqus is a common comment provider for blogs. Maybe you already have an account
 
 ## Option 2: Post as a guest
 
-You have to tick the three boxes shown and prove you're not a robot, then click the grey arrow.
+You have to type in you comment, fill out your name + email, and, tick the three boxes shown and prove you're not a robot, then click the grey arrow.
 
 ![example comment](/img/appendix/commenting.jpg)
 
