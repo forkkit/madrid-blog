@@ -8,6 +8,7 @@
         <header class="post-header">
         	<h1 class="post-title">{{ .Title }}</h1>
           <p class="post-date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time></p>
+          {{ with .Params.subtext }}<p><i>{{ . }}</i></p>{{ end }}
         </header>
         <!--{{ if isset .Params "featuredimage" }}
         <figure class="post-figure">
