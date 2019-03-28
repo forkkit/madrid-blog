@@ -285,6 +285,7 @@ strong {
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 8px;
 }
 .muted-text {
     color: #7A7B7C;
