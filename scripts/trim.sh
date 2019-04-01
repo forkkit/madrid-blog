@@ -1,5 +1,4 @@
 #!/bin/bash
-
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 IMGDIR=$(dirname $DIR)/static/img/$1/$2
 post="$(dirname $DIR)/content/post/$1-$2.md"
