@@ -32,7 +32,7 @@
     "breadcrumbAutoHideTopLevel": false
   }'>
 
-{{ range (split (.Get "src") " " ) }}
+{{ range (split (trim (.Get "src") " ") " " ) }}
 
   {{ $thumb := (printf "%s/thumb/thumb.%s" $imgDir . )}}
   {{ $thumbRel := (printf "static/img/%s/%s/thumb/thumb.%s" $month $day . )}}
