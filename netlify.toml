@@ -19,4 +19,7 @@ command = "hugo -b $DEPLOY_PRIME_URL"
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.36"
 
-headers = [{for = "/*", values = {Access-Control-Allow-Origin="*"}}]
+[[headers]]
+for = "/*"
+[headers.values]
+Access-Control-Allow-Origin = "*"
