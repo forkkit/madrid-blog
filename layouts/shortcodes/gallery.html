@@ -1,8 +1,7 @@
 {{ $month := .Page.Date.Format "01" }}
 {{ $day   := .Page.Date.Format "02" }}
-{{ $imgDir   := (printf "%simg/%s/%s" .Site.BaseURL $month $day) }}
+{{ $imgDir   := (absURL (printf "/img/%s/%s" $month $day)) }}
 {{ .Page.Scratch.Add "gallery-total" 1  }}
-
 
 <div class="small-img" style="{{- if isset .Params "maxwidth" }}max-width: {{ .Get "maxwidth" }}; {{- end -}}" ID='ngy2p_{{ .Page.Scratch.Get "gallery-total" }}' data-nanogallery2='{
     "itemsBaseURL": "{{ $imgDir }}/",
