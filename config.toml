@@ -1,9 +1,9 @@
 languageCode = "en-us"
 
-baseurl = ""
+baseurl = "https://madrid.mattrossman.com"
 title = "Matt in Madrid"
 author = "Matt Rossman"
-canonifyurls = true
+canonifyurls = false
 paginate = 10
 theme = "aether"
 disqusShortname = "matt-in-madrid"
