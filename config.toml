@@ -1,6 +1,6 @@
 languageCode = "en-us"
 
-baseurl = "https://madrid.mattrossman.com/"
+baseurl = ""
 title = "Matt in Madrid"
 author = "Matt Rossman"
 canonifyurls = true
