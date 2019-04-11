@@ -27,7 +27,7 @@ Note to remove the extra spaces between brackets, they are placed so this commen
 
 <div class="hugo-img small-img" style="margin-bottom: 0.5em; {{- if isset .Params "width" }}width: {{ .Get "width" }}; {{- end -}} max-width:{{ default "auto" (.Get "maxwidth")}}">
 <a href={{ $.Scratch.Get "src" }}>
-	<img src="{{ $.Scratch.Get "src" }}" 
+    <img src="{{ default ($.Scratch.Get "src") (.Get "thumb") }}" 
 	    alt="{{ $.Scratch.Get "src" }} not found"
 	    class="hugo-img small-img {{ if isset .Params "smartfloat" -}}
 	        {{- if eq .Params.smartfloat "left" -}}
@@ -40,7 +40,7 @@ Note to remove the extra spaces between brackets, they are placed so this commen
 </a>
 </div>
 {{- if isset .Params "caption" -}}<p class="small-img" style="text-align: center; max-width: 30em; margin-top: 0">
-	<i>{{ .Get "caption" }}</i>
+	<i>{{ .Get "caption" | markdownify }}</i>
 </p>{{- end -}}
 
 <!-- FOR THE CURIOUS
