@@ -25,7 +25,8 @@ Note to remove the extra spaces between brackets, they are placed so this commen
     {{ $.Scratch.Set "src" (absURL (printf "/img/%s/%s/%s" $month $day ($.Scratch.Get "src"))) }}
 {{ end }}
 
-<div class="hugo-img small-img" style="margin-bottom: 0.5em; {{- if isset .Params "width" }}width: {{ .Get "width" }}; {{- end -}} max-width:{{ default "auto" (.Get "maxwidth")}}">
+<div class="hugo-img small-img" style="text-align: center; {{- if isset .Params "width" }}width: {{ .Get "width" }}; {{- end -}} max-width:{{ default "auto" (.Get "maxwidth")}}">
+    <div style="display: inline-block;">
 <a href={{ $.Scratch.Get "src" }}>
     <img src="{{ default ($.Scratch.Get "src") (.Get "thumb") }}" 
 	    alt="{{ $.Scratch.Get "src" }} not found"
@@ -38,6 +39,8 @@ Note to remove the extra spaces between brackets, they are placed so this commen
 	    {{- end }}"
 	/>
 </a>
+{{- if isset .Params "credit" -}}<p class="credit">Image: {{ .Get "credit" | markdownify }}</p>{{- end -}}
+</div>
 </div>
 {{- if isset .Params "caption" -}}<p class="small-img" style="text-align: center; max-width: 30em; margin-top: 0">
 	<i>{{ .Get "caption" | markdownify }}</i>

@@ -285,7 +285,7 @@ strong {
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
 }
 .muted-text {
     color: #7A7B7C;
@@ -454,4 +454,11 @@ footer {
 .nav-label {
     float: right;
     margin: 0 5px;
+}
+
+.credit {
+    margin: 0;
+    font-size: 8pt;
+    text-align: right;
+
 }
