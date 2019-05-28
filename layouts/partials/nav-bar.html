@@ -1,9 +1,9 @@
 <nav class="nav-bar side-padding">
   <h1 class="nav-header">
-    {{ if .IsPage }}
-        <a href="{{ .Site.BaseURL }}" class="nav-text">home</a>
-    {{ else }}
+    {{ if .IsHome }}
         <a href='{{ ref . "/about.md" }}' class="nav-text">about</a>
+    {{ else }}
+        <a href="{{ .Site.BaseURL }}" class="nav-text">home</a>
     {{ end }}
   </a></h1>
   <a href="/subscribe"><div><i class="fa fa-envelope-o" style="font-size:24px"></i><h3 class="nav-header nav-label">subscribe</h3></div></a>
